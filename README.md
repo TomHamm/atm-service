@@ -85,7 +85,7 @@ invalid pin - user is told and nothing is effected
 
 ![alt text](https://github.com/TomHamm/Resources/blob/main/update-response-pin-incorrect.jpg)
 
-##Coverage level - Service layer
+## Coverage level - Service layer
 
 ![alt text](https://github.com/TomHamm/Resources/blob/main/test-coverage-results.jpg)
 

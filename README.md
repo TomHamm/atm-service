@@ -71,7 +71,7 @@ Response Examples
 
 valid pin & valid amount - sucessfully withdrwan
 
-![alt text](https://github.com/TomHamm/Resources/blob/main/update-request-sucsess.jpg)
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-response-sucsess.jpg)
 
 valid pin & not enough in Users account - user is told and nothing is effected
 

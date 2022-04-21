@@ -43,6 +43,8 @@ Note: When running on Docker the ip address and port being used to conect to Pos
 
 ## Manual Tests - Postman
 
+The Application can be Tested locally using the following Enpoints
+
 ### GET api/v1/atm/balance
 
 Request

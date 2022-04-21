@@ -28,7 +28,7 @@ Required Tables will be created on startup of the Application
 When the Repo has been cloned locally, run the following commands in the root directiory to start the Application
 
 - mvn clean install
-- spring-boot:run
+- mvn spring-boot:run
 
 ## Running on Docker
 

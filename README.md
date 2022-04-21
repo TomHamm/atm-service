@@ -42,3 +42,35 @@ When the Repo has been cloned locally, run the following commands in the root di
 Note: When running on Docker the ip address and port being used to conect to Postgress will differ per machie 
 
 ## Manual Tests - Postman
+
+### GET api/v1/atm/balance
+
+Request
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/get-atm.jpg)
+
+### GET api/v1/atm/accounts/{accountNumber}/{pin} - valid account number & pin
+
+Request
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/get-account-s.jpg)
+
+### GET api/v1/atm/accounts/{accountNumber}/{pin} - valid account number & invalid pin
+
+Request
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/get-account-invalid.jpg)
+
+### PUT api/v1/atm/accounts/{accountNumber} Example - pin & amount in Body of Request
+
+Request Example
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/get-request-sucsess.jpg)
+
+Response Examples
+
+valid pin & valid amount - sucessfully withdrwan
+
+valid pin & not enough in Users account - user is told and nothing is effected
+
+valid pin & not enough funds in ATM user is told and nothing is effected

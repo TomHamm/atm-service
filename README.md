@@ -65,12 +65,22 @@ Request
 
 Request Example
 
-![alt text](https://github.com/TomHamm/Resources/blob/main/get-request-sucsess.jpg)
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-request-sucsess.jpg)
 
 Response Examples
 
 valid pin & valid amount - sucessfully withdrwan
 
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-request-sucsess.jpg)
+
 valid pin & not enough in Users account - user is told and nothing is effected
 
-valid pin & not enough funds in ATM user is told and nothing is effected
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-response-insuficent-account-funds.jpg)
+
+valid pin & not enough funds in ATM - user is told and nothing is effected
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-response-insuficent-atm-funds.jpg)
+
+invalid pin - user is told and nothing is effected
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/update-response-pin-incorrect.jpg)

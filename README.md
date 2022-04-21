@@ -1,14 +1,31 @@
 # ATM Machine - Zinkworks 2 Day Java Home Assignment
 
-## Requirements
+## Requirements to Run
 
--	should initialize with the following accounts:
--	
--	should initialize with €1500 made up of 10 x €50s, 30 x €20s, 30 x €10s and 20 x €5s
--	should not dispense funds if the pin is incorrect,
--	cannot dispense more money than it holds,
--	cannot dispense more funds than customer have access to
--	should not expose the customer balance if the pin is incorrect,
--	should only dispense the exact amounts requested,
--	should dispense the minimum number of notes per withdrawal,
+You need to have the following installed:
+
+- Java 8
+- PostgreSQL
+- Maven
+
+## DB Setup
+
+The Application Interacts with a Postgress Database so a DB will have to be set up locally
+
+This can be Done using PG Admin and creating a database - atm
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/database.jpg)
+
+The application.properties file will define the connection to the DB - see Credentials being used below
+
+![alt text](https://github.com/TomHamm/Resources/blob/main/databaseCredentials.jpg)
+
+Required Tables will be created on startup of the Application
+
+## Running the Application
+
+When the Repo has been cloned locally, run the following commands in the root directiory to start the Application
+
+- mvn clean install
+- spring-boot:run
 

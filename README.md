@@ -40,3 +40,5 @@ When the Repo has been cloned locally, run the following commands in the root di
 - docker run -p 8081:8081 atm-service
 
 Note: When running on Docker the ip address and port being used to conect to Postgress will differ per machie 
+
+## Manual Tests - Postman

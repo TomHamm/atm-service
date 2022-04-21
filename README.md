@@ -89,3 +89,9 @@ invalid pin - user is told and nothing is effected
 
 ![alt text](https://github.com/TomHamm/Resources/blob/main/test-coverage-results.jpg)
 
+## Improvements
+
+A requirment listed below needs logic to be implemented in the Application yet 
+
+- TO-DO - Dispense the minimum number of notes per withdrawal & inform details of the notes that would be dispensed
+

@@ -1,4 +1,4 @@
-# ATM Machine - Zinkworks 2 Day Java Home Assignment
+# ATM Machine
 
 ## Requirements to Run
 
